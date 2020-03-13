@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Css Styles -->
+   
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/themify-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style>
+        *{
+          margin: 0;
+          padding: 0;  
+        }
+        #header{
+            position: absolute;
+            z-index: 10;
+            width: 100%;
+        }
+        .navbar{
+            padding: 50px 0;
+        }
+        .navbar-brand{
+            font-weight: 600;
+            font-size: 1.5em;
+        }
+        .navbar-dark .navbar-brand{
+            color: bisque;
+        }
+        .nav-item{
+            font-weight: 600;
+            text-transform: uppercase;
+            padding-left: 10px;
+        }
+        .navbar-dark .navbar-nav .nav-item .nav-link:hover{
+          
+            color: #000000;
+        }
+        .main{
+            position: relative;
+            background: url(https://miro.medium.com/max/1920/1*etDJsZIWf76sb1P_l6ZW3w.gif);
+            min-height: 100vh;
+            background-size: cover;
+            background-position: center;
+            padding: 220px 0 200px;
+        }
+        .main h2{
+            margin: 0;
+            padding: 0;
+            font-size: 2.6em;
+            color: bisque;
+            text-transform: uppercase;
+            font-weight: bolder;
+        }
+        .main p{
+            margin-top: 1em;
+            padding: 0;
+            font-size: 1.2em;
+            color: bisque;
+            font-weight: bold;
+        }
+        .main btn{
+            background: #718093;
+            color: #fff;
+            border-radius: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        @media(max-width: 768px){
+            .main{
+                padding: 200px 0;
+            }
+
+            .main h2{
+                font-size: 2em;
+            }
+        }
+       
+    </style>
+    <title>Pneumonia Web Application</title>
+
+  </head>
+  <body>
+    
+    <header class="header-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2">
+                    <div class="logo">
+                        <a href="#">
+                            <h3 style="color: bisque;">RadiologyAssistant</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-md-10">
+                    <div class="main-menu mobile-menu">
+                        <ul>
+                            <li class="active"><a href="./index.html">Home</a></li>
+                            <li><a href="https://111.nhs.uk/service/COVID-19/">CoronaVirus Symptoms Checker</a></li>
+                            <li><a href="#">Project Members</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Tim Maina</a></li>
+                                    <li><a href="#">Isack Kipkeino</a></li>
+                                    <li><a href="#">RJ Wanyonyi</a></li>
+                                    <li><a href="#">Timothy Trevor</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="mailto:paulkiragu621@gmail.com" target="_top">Contact Developer</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+
+    <section class="main">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>Using Deep learning to diagnose Pneumonia.</h2>
+                    <p>
+                        This study proposes a convolutional neural network model trained from scratch to classify and detect the presence of pneumonia from a collection of chest X-ray image samples. Unlike other methods that rely solely on transfer learning approaches or traditional handcrafted techniques to achieve a remarkable classification performance, we constructed a convolutional neural network model from scratch to extract features from a given chest X-ray image and classify it to determine if a person is infected with pneumonia. This model could help mitigate the reliability and interpretability challenges often faced when dealing with medical imagery.
+                    </p>
+                    <p>
+                        The model has predicted pneumonia on X-ray images with patients suffering from CoronaVirus(COVID-19). This is unproven, but can be very useful especially during the current pandemic where scientists aren't sure of CoronaVirus Symptoms!! Check out the following story where a Chest X-ray helped diagnose a Vietnamese man with <a href="https://www.auntminnie.com/index.aspx?sec=log&itemID=127983">CoronaVirus</a>
+                    </p>
+                    <button type="button" onclick="window.location.href = 'http://303e97d6.ngrok.io/docs'" class="btn btn-secondary">Try it now!</button>
+                    <button type="button" onclick="window.location.href = 'https://47c39788.ngrok.io/api/v1/online/lipa'" class="btn btn-secondary">Donate</button>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+     <!-- About Us Section Begin -->
+     <section class="about-us-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="as-pic">
+                        <img src="https://scontent.fmba1-1.fna.fbcdn.net/v/t1.0-9/30706191_2045611632349572_320112819364540190_n.jpg?_nc_cat=110&_nc_sid=85a577&_nc_eui2=AeF1CnmytIMjX-50CJUbttBIGl2Deu5R03vHhsFvdYZjRvG1vU5gCdc8i_QKsYE0xkNRHz-mDynd9vWSvZGaQenSZrmo-iXUJZ6IGgPAA_EQuw&_nc_oc=AQnakA-9L5NPUdqzFEWPpAfXsnPsY4jlo7g9tPHjSlC22bzCvPIwZIbyvXG1bYXzTxk&_nc_pt=5&_nc_ht=scontent.fmba1-1.fna&oh=a408c210ae0eddb1af12f5868e34be4d&oe=5E8E2B79" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="as-text">
+                        <div class="section-title">
+                            <span>More information</span>
+                            <h2>Developer's say</h2>
+                        </div>
+                        <p class="f-para">We developed a model to detect and classify pneumonia from chest X-ray images taken from frontal views at high validation accuracy. The algorithm begins by transforming chest X-ray images into sizes smaller than the original. The next step involves the identication and classifcation of images by the convolutional neural network framework (keras), which extracts features from the images and classifes them</p>
+                        <p class="s-para">One of the biggest challenges of using AI for disease diagnosis is the lack of labeled data. Data is not readily available and only medical professionals are qualified to label the data. Furthermore, data collection is often biased to specific demographics and the hospital equipment used to collect the data. You can download x-ray images at <a href="https://radiopaedia.org/cases/">radiopaedia.org</a> for testing the application. </p>
+                        <a href="https://github.com/paulwababu/" class="primary-btn">Check me out on Github!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section class="footer-section">
+        <div class="container">
+            
+            <div class="copyright-text"><p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+  </p></div>
+        </div>
+    </section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
