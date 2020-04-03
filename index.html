@@ -21,73 +21,7 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <style>
-        *{
-          margin: 0;
-          padding: 0;  
-        }
-        #header{
-            position: absolute;
-            z-index: 10;
-            width: 100%;
-        }
-        .navbar{
-            padding: 50px 0;
-        }
-        .navbar-brand{
-            font-weight: 600;
-            font-size: 1.5em;
-        }
-        .navbar-dark .navbar-brand{
-            color: bisque;
-        }
-        .nav-item{
-            font-weight: 600;
-            text-transform: uppercase;
-            padding-left: 10px;
-        }
-        .navbar-dark .navbar-nav .nav-item .nav-link:hover{
-          
-            color: #000000;
-        }
-        .main{
-            position: relative;
-            background: url(https://miro.medium.com/max/1920/1*etDJsZIWf76sb1P_l6ZW3w.gif);
-            min-height: 100vh;
-            background-size: cover;
-            background-position: center;
-            padding: 220px 0 200px;
-        }
-        .main h2{
-            margin: 0;
-            padding: 0;
-            font-size: 2.6em;
-            color: bisque;
-            text-transform: uppercase;
-            font-weight: bolder;
-        }
-        .main p{
-            margin-top: 1em;
-            padding: 0;
-            font-size: 1.2em;
-            color: bisque;
-            font-weight: bold;
-        }
-        .main btn{
-            background: #718093;
-            color: #fff;
-            border-radius: 0;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-        @media(max-width: 768px){
-            .main{
-                padding: 200px 0;
-            }
-
-            .main h2{
-                font-size: 2em;
-            }
-        }
+        *{margin:0;padding:0}#header{position:absolute;z-index:10;width:100%}.navbar{padding:50px 0}.navbar-brand{font-weight:600;font-size:1.5em}.navbar-dark .navbar-brand{color:bisque}.nav-item{font-weight:600;text-transform:uppercase;padding-left:10px}.navbar-dark .navbar-nav .nav-item .nav-link:hover{color:#000}.main{position:relative;background:url(https://miro.medium.com/max/1920/1*etDJsZIWf76sb1P_l6ZW3w.gif);min-height:100vh;background-size:cover;background-position:center;padding:220px 0 200px}.main h2{margin:0;padding:0;font-size:2.6em;color:bisque;text-transform:uppercase;font-weight:bolder}.main p{margin-top:1em;padding:0;font-size:1.2em;color:bisque;font-weight:700}.main btn{background:#718093;color:#fff;border-radius:0;padding-left:20px;padding-right:20px}@media(max-width:768px){.main{padding:200px 0}.main h2{font-size:2em}}
        
     </style>
     <title>CoronaVirus and Pneumonia Detection Web Application</title>
@@ -139,7 +73,7 @@
                     <p>
                         An interesting thing about The model, is it has predicted "pneumonia" on X-ray images with patients suffering from CoronaVirus(COVID-19). This means although the patient does not have pneumonia, he/she is likely to be suffering from another respiratory illness like corona in our case. This is unproven, but can be very useful especially during the current pandemic where scientists aren't sure of CoronaVirus Symptoms! Check out the following story where a Chest X-ray helped diagnose a Vietnamese man with <a href="https://www.auntminnie.com/index.aspx?sec=log&itemID=127983">CoronaVirus</a>. To try out the application, click on the try it out button, click on POST, then click try it now. Upload a chest x-ray and execute! The results is in terms of log loss, so multiply by 100 to get probability.
                     </p>
-                    <button type="button" onclick="window.location.href = 'https://9f80824e.ngrok.io/docs'" class="btn btn-secondary">Try it now!</button>
+                    <button type="button" onclick="window.location.href = 'https://c3b0ae7d.ngrok.io/docs'" class="btn btn-secondary">Try it now!</button>
                     <button type="button" onclick="window.location.href = 'https://c8e7a0bb.ngrok.io/api/v1/online/lipa'" class="btn btn-secondary">Donate</button>
                 </div>
             </div>
